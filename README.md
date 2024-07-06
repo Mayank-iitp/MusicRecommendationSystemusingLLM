@@ -40,7 +40,7 @@ The dataset comprises various features of songs, including:
 ### Methodology
 
 1. *Text Embeddings Generation*:
-   The nomic-ai/nomic-embed-text-v1.5 model from Hugging Face which was first quantatized ysing the LORA technique is employed to generate 768-dimensional embeddings for the textual features. This model is renowned for producing high-quality embeddings that capture the semantic meaning of the text effectively.
+   The nomic-ai/nomic-embed-text-v1.5 model from Hugging Face which was first quantatized by using the LoRA (Low-Rank Adaptation of Large Language Models) technique. It is employed to generate 768-dimensional embeddings for the textual features. This model is renowned for producing high-quality embeddings that capture the semantic meaning of the text effectively.
 
 2. *Normalization of Numerical Features*:
    Numerical features are normalized to ensure that they are on a comparable scale. This step is crucial for combining these features with the text embeddings.
